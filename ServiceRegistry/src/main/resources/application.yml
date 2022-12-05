@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false # disable register with eureka server
+    fetch-registry: false # disable fetch registry from eureka server
+
+server:
+  port: 8761
